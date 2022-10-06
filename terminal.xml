@@ -1,6 +1,6 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="/bin/zsh" />
+    <option name="myShellPath" value="C:\Users\aluga.com\AppData\Local\Microsoft\WindowsApps\ubuntu2004.exe" />
     <option name="myTabName" value="Local" />
   </component>
 </application>
