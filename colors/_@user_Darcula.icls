@@ -1,9 +1,9 @@
 <scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-10-05T21:18:43</property>
+    <property name="created">2020-12-03T11:11:36</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2022.2.1.0.0</property>
-    <property name="modified">2022-10-05T21:27:42</property>
+    <property name="ideVersion">2020.3.0.0</property>
+    <property name="modified">2022-10-04T19:27:01</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -12,7 +12,7 @@
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
@@ -21,4 +21,18 @@
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
   </colors>
+  <attributes>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value />
+    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value />
+    </option>
+    <option name="CONSOLE_GRAY_OUTPUT">
+      <value />
+    </option>
+    <option name="LOG_EXPIRED_ENTRY">
+      <value />
+    </option>
+  </attributes>
 </scheme>
