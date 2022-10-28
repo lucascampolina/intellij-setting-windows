@@ -1,0 +1,16 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="GotoAction" />
+  <action id="Maven.ExecuteGoal">
+    <keyboard-shortcut first-keystroke="shift ctrl dead_tilde" />
+  </action>
+  <action id="Maven.Reimport">
+    <keyboard-shortcut first-keystroke="shift ctrl #10000c7" />
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+</keymap>
