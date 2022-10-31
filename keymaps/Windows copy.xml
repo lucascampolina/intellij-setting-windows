@@ -1,10 +1,26 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="GotoAction" />
+  <action id="GotoClass" />
+  <action id="GuiDesigner.ShrinkSelection" />
   <action id="Maven.ExecuteGoal">
     <keyboard-shortcut first-keystroke="shift ctrl dead_tilde" />
   </action>
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="shift ctrl #10000c7" />
+  </action>
+  <action id="NewProject">
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
@@ -12,5 +28,10 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="SmartSelect" />
+  <action id="SmartUnSelect" />
+  <action id="TableResult.GrowSelection" />
+  <action id="TableResult.ShrinkSelection" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
