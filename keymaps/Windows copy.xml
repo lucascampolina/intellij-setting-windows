@@ -1,10 +1,35 @@
 <keymap version="1" name="Windows copy" parent="$default">
-  <action id="ShowProjectStructureSettings">
-    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
-    <keyboard-shortcut first-keystroke="ctrl #10000c7" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="ForceOthersToFollowAction" />
+  <action id="GotoClass" />
+  <action id="Maven.ExecuteGoal">
+    <keyboard-shortcut first-keystroke="shift alt quote" />
+  </action>
+  <action id="Maven.Reimport">
+    <keyboard-shortcut first-keystroke="shift alt semicolon" />
+  </action>
+  <action id="MaximizeToolWindow" />
+  <action id="NewElementInMenuGroup">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="shift alt o" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="SelectVirtualTemplateElement" />
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="ShowRecentTests" />
   <action id="ShowSettings">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-    <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="alt quote" />
   </action>
 </keymap>
