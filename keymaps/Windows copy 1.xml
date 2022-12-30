@@ -51,12 +51,16 @@
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="NextEditorTab" />
-  <action id="NextTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
   <action id="PreviousEditorTab" />
-  <action id="PreviousTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
@@ -69,4 +73,5 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="alt quote" />
   </action>
+  <action id="context.load" />
 </keymap>
