@@ -22,7 +22,6 @@
     </option>
     <option name="timelineState">
       <timeline-ui>
-        <option name="dragToChangeZoom" value="true" />
         <option name="showChart" value="true" />
       </timeline-ui>
     </option>
