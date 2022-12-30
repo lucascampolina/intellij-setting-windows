@@ -8,11 +8,35 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
   <action id="EditorDeleteToWordStart" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="Maven.ExecuteGoal">
     <keyboard-shortcut first-keystroke="shift alt quote" />
   </action>
@@ -22,9 +46,13 @@
   <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
+  <action id="NextEditorTab" />
+  <action id="NextTab" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
+  <action id="PreviousEditorTab" />
+  <action id="PreviousTab" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
