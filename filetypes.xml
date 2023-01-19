@@ -3,8 +3,8 @@
     <extensionMap>
       <mapping pattern="teste.wsdl" type="AUTO_DETECTED" />
       <mapping pattern="consultaSaldoESituacao" type="AUTO_DETECTED" />
-      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".swagger-codegen-ignore" type="PLAIN_TEXT" />
       <mapping pattern=".xjc-xjcStaleFlag" type="PLAIN_TEXT" />
@@ -16,6 +16,7 @@
       <removed_mapping ext="hcl" approved="true" type="YAML" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tfvars" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".dockerignore" approved="true" type="DockerIgnore file" />
     </extensionMap>
   </component>
 </application>
