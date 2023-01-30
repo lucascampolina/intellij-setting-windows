@@ -11,10 +11,6 @@
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift alt w" />
   </action>
-  <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="ctrl f4" />
-    <keyboard-shortcut first-keystroke="alt w" />
-  </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorDeleteLine">
@@ -59,6 +55,9 @@
   </action>
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="shift alt semicolon" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="alt n" />
