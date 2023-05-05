@@ -10,7 +10,6 @@
       <mapping pattern=".xjc-xjcStaleFlag" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
-      <mapping ext="plantuml" type="PlantUML file" />
       <mapping ext="ps1" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="hcl" approved="true" type="PLAIN_TEXT" />
@@ -18,6 +17,7 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tfvars" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".dockerignore" approved="true" type="DockerIgnore file" />
+      <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
 </application>
