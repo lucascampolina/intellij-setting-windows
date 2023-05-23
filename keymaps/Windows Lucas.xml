@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows Lucas" parent="$default">
+  <action id="ActivateBigDataToolWindowToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
+  </action>
   <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivateRunToolWindow">
